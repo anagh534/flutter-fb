@@ -30,6 +30,7 @@ jobs:
         #4 Install Dependencies
       - name: Install Dependencies
         run: flutter pub get
+        run: flutter pub upgrade --major-versions
 
         #5 Setup Keystore
       - name: Decode Keystore
